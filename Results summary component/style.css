@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: crimson;
+}
+
+.parent {
+    height: 50%;
+    width: 40%;
+    background-color: yellow;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+
+#left {
+    height: 100%;
+    background-color: royalblue;
+    width: 50%;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#right {
+    background-color: goldenrod;
+    height: 100%;
+    width: 50%;
+    border-radius: 50px;
+    float: right;
+}
+
+#circle {
+    background-color: green;
+    height: 45%;
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    font-size: 2vw;
+}
+
+#text1 {
+    padding-top: 25px;
+    font-size: 1vw;
+}
+
+#text2 {
+    padding-top: 70%;
+    font-size: 1vw;
+}
+
+
+#summary {
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+#reactiontxt {
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+#memory {
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+#verbal {
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+#visual {
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+#button {
+    margin-top: 10%;
+    margin-left: 20%;
+    height: 7%;
+    width: 60%;
+}
